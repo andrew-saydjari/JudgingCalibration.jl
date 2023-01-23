@@ -1,0 +1,13 @@
+name = "JudgingCalibration"
+uuid = "6c596b3d-40a2-4533-95fc-8881f0bc6ee1"
+authors = ["andrew-saydjari <saydjari@g.harvard.edu> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
