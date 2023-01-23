@@ -1,6 +1,4 @@
-using JudgingCalibration
+using JudgingCalibration, CSV
 using Test
 
-@testset "JudgingCalibration.jl" begin
-    # Write your tests here.
-end
+include("reeval_scores.jl")
