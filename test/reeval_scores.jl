@@ -5,6 +5,7 @@
     gt = [4,5,8,8,9,7];
     
     df_stu, df_jud = reeval_scores(students, judges, scores);
+    df_stu, df_jud, judcovar = reeval_scores(students, judges, scores, covar_on=true);
     
     fname = tempname()*".csv"
     CSV.write(fname,sort(df_stu,:cscores,rev=true))
